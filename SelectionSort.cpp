@@ -3,15 +3,15 @@ using namespace std;
 
 void SelectionSort(int arr[], int length);
 void PrintArray(int arr[], int lenght);
-void AllocateArray();
+void AllocateAndSort();
 
 int main()
 {
-    AllocateArray();
+    AllocateAndSort();
     return 0;
 }
 
-void AllocateArray()
+void AllocateAndSort()
 {
     int size;
     cout << "Please Enter Array Size: ";
