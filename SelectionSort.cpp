@@ -27,6 +27,7 @@ void AllocateAndSort()
     SelectionSort(arr, size);
     cout << "Sorted Array: " << endl;
     PrintArray(arr, size);
+    delete[] arr;
 }
 
 void SelectionSort(int arr[], int length)
